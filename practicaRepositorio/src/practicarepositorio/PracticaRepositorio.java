@@ -22,7 +22,7 @@ public class PracticaRepositorio extends JFrame{
     }
     
     public void setTitulo(){
-        this.setTittle("Practica");
+        this.setTitle("Practica");
     }
     
     
