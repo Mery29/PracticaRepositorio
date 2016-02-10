@@ -5,17 +5,38 @@
  */
 package practicarepositorio;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Mery Zuñiga
  */
-public class PracticaRepositorio {
+public class PracticaRepositorio extends JFrame{
+    
+    public PracticaRepositorio(){
+        super("Practica");
+    }
+    
+    public void mostrar(){
+        this.setVisible(true);
+    }
+    
+    //Hacer método de ajustarConfiguraciones
+    
+    
+    
+    public void iniciar(){
+        mostrar();
+        //Debe llamar a los otros métodos q se creen 
+    }
+    
+    
+    //Hacer método de agregarComponentes para poner un Panel con algo
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        PracticaRepositorio ventana= new PracticaRepositorio();
+        ventana.iniciar();
     }
     
 }
