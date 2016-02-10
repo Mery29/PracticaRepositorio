@@ -14,20 +14,29 @@ import javax.swing.JFrame;
 public class PracticaRepositorio extends JFrame{
     
     public PracticaRepositorio(){
-        super("Practica");
+        super(" ");
     }
     
     public void mostrar(){
         this.setVisible(true);
     }
     
-    //Hacer método de ajustarConfiguraciones
+    public void setTitulo(){
+        this.setTittle("Practica");
+    }
     
+    
+    //Hacer método de ajustarConfiguraciones
+    public void ajustaConfiguracionInicial(){
+        
+    }
     
     
     public void iniciar(){
+        ajustaConfiguracionInicial();
+        setTitulo();
+       //Debe llamar a los otros métodos q se creen 
         mostrar();
-        //Debe llamar a los otros métodos q se creen 
     }
     
     
